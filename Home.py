@@ -10,7 +10,7 @@ from utils import pdf_to_text, generate_summary, save_vector_store, retrieval_au
 
 IMAGE = "https://miro.medium.com/v2/resize:fit:1400/1*02uoHJoYt3E7rylWEny02w.jpeg"
 PROMPT = """
-Write a concise summary of the following:
+Write a summary of the following which anybody can understand and learn what is saying in the research. Summary should be in simple terms and emphasise the contribution towards environmental Science :
 {text}
 CONCISE SUMMARY:
 """
